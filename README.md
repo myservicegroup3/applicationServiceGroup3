@@ -1,5 +1,5 @@
 # 软件工程需求技术博客
-CNDS博客地址：https://blog.csdn.net/weixin_43480708
+CSDN博客地址：https://blog.csdn.net/weixin_43480708
 * 5-7 第一次更新 *“今天吃什么”项目计划*
 * 5-16 第二次更新 *“今天吃什么” 项目前景和范围文档*
 
