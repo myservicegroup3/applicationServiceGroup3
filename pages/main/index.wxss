@@ -1,0 +1,73 @@
+/* pages/main/index.wxss */
+.container{
+  background-color: rgb(20, 148, 30);
+  width: 100%;
+  height: 1000rpx;
+  display: flex;
+  padding: 0rpx 0rpx 0rpx 0rpx;
+}
+.block1{
+  position: absolute;
+  margin-left: 0;
+  margin-top: 280rpx;
+  width: 70%;
+  height:120rpx;
+  background-color: #1c7f97a9;
+  opacity: 30%;
+}
+.block1-2{
+  position: absolute;
+  margin-left: 0;
+  margin-top: 280rpx;
+  width: 70%;
+  height:120rpx;
+  background-color: #070655a9;
+  opacity: 30%;
+}
+.block2{
+  text-align: center;
+  border:solid navy 3rpx;
+  border-radius:30rpx;
+  position: absolute;
+  font-size: 50rpx;
+  width: 35%;
+  height:70rpx;
+  margin-top:50%;
+  margin-left: 30%;
+}
+.block3{
+  position: absolute;
+  margin-top:370rpx;
+  width: 50%;
+  height: 140rpx;
+  background-color: #cdcf2aad;
+  opacity: 30%;
+  margin-left: 55%;
+}
+.block3-2{
+  position: absolute;
+  margin-top:370rpx;
+  width: 50%;
+  height: 140rpx;
+  background-color: #f568d6ad;
+  opacity: 30%;
+  margin-left: 55%;
+}
+.foot{
+  position: absolute;
+  margin-top:950rpx;
+  margin-left: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot1{
+   width: 300rpx;
+   height: 100rpx;
+   margin: 10rpx;
+}
+.foot2{
+   width: 300rpx;
+   height: 100rpx;
+   margin: 10rpx;
+}

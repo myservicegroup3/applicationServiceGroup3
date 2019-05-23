@@ -1,0 +1,14 @@
+<!--pages/my/index.wxml-->
+<view  class='back1'>
+    <image class='f' src="{{imgsrc}}"></image>
+    <button class="login0" bindtap='demo' ><text class='login0-text'>{{nickname}}</text></button>
+</view>
+<button bindtap='' class='login'>
+    联系作者
+</button>
+<button class="login" bindtap='' >我的收藏</button>
+  <button class="login" bindtap='' >最近订单</button>
+  <button bindtap='{{dd}}' class='{{cc}}'>
+  <text class='{{ff}}'>{{out}}</text> 
+</button>
+<view class='foot'></view>

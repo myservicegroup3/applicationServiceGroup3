@@ -1,0 +1,75 @@
+/* pages/what/index.wxss */
+page{
+  font-family: SimSun;
+  background: #fff;
+}
+.filterList-characteristic-title1{
+  position: relative;
+  height: 70rpx;
+  line-height: 70rpx;
+  width: 300rpx;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: SimSun;
+  padding-left: 30%;
+  margin: 20rpx 0 20rpx;
+  background: #a4e3eede;
+  border-radius:10rpx; 
+}
+.filterList-characteristic-title1::before{
+  content: "  ";
+  position: absolute;
+  left: 0;
+  top: 20rpx;
+  display: inline-block;
+  width: 10rpx;
+  height: 25rpx;
+
+}
+.filterList-characteristic-title{
+  position: relative;
+  height: 60rpx;
+  line-height: 60rpx;
+
+
+  font-weight: 400;
+  padding-left: 40rpx;
+  margin-bottom: 15px;
+}
+
+.filterList-characteristic-title::before{
+  content: "  ";
+  position: absolute;
+  left: 8rpx;
+  top: 12rpx;
+  display: inline-block;
+  width: 30rpx;
+  height: 30rpx;
+  background: #f595d0;
+}
+.filterList-characteristic-items{
+  height: 220rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+  border: solid 2rpx;
+  border-radius: 20rpx;
+  margin-bottom: 45rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  padding-left:22rpx; 
+}
+.filterList-characteristic-item{
+  text-align: center;
+  height: 70rpx;
+  width: 200rpx;
+  margin:10rpx 10rpx;
+  border-radius: 70rpx;
+  border: 2rpx solid rgb(230, 227, 227);
+  line-height: 70rpx;
+  background: #e7e8e9de;
+}
+.foot{
+  height: 100rpx;
+}

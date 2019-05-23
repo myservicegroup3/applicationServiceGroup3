@@ -1,0 +1,5 @@
+<!--pages/main/pagess/menu/menu.wxml-->
+<view class='container'>
+   <text>恭喜你抽到一份还未完成的菜单</text>
+   <text>ʕ⊙ᴥ⊙ʔ</text>
+</view>
