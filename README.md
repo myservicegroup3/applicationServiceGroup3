@@ -1,7 +1,8 @@
 # 软件工程需求技术博客
-CSDN博客地址：https://blog.csdn.net/weixin_43480708
+## CSDN博客地址：https://blog.csdn.net/weixin_43480708
 * 5-7 第一次更新 *“今天吃什么”项目计划*
 * 5-16 第二次更新 *“今天吃什么” 项目前景和范围文档*
+* 5-24 第三次更新 *“今天吃什么” 结构化需求分析*  
 
 ## 本组选题：今天吃什么  
 
@@ -57,6 +58,112 @@ CSDN博客地址：https://blog.csdn.net/weixin_43480708
 * LI-1:一些不是很常见的外卖商家不会列入名单。
 * LI-2:对于某些食堂菜品的推荐，对自行选择原材料的例如火锅等不会给出具体的材料推荐。
   
+### 四、结构化需求概述（5-24更新）  
+#### （1）功能分解图  
+
+![功能分析图](https://img-blog.csdnimg.cn/20190524002959887.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
+
+#### （2）需求细化  
+
+##### 1、生成随机菜单  
+
+* 源头：核心需求  
+
+* 理由：纠结吃什么，干脆随便  
+
+* 优先级:高优先级  
+
+* 成本：无  
+
+* 可变性：无  
+
+##### 2、生成自选菜单  
+
+* 源头：核心需求  
+
+* 理由：想自己决定  
+
+* 优先级：高优先级  
+
+* 成本：无  
+
+* 风险：无  
+
+* 可变性：无  
+
+##### 2.1 用餐时间选择  
+
+* 源头： 一日三餐不一样  
+
+* 理由：早饭要吃好、午饭要吃饱、晚饭要吃少  
+
+* 优先级：中优先级  
+
+* 成本：无  
+
+* 风险：无  
+
+* 可变性：低  
+
+##### 2.2 菜系选择  
+
+* 源头：不同口味人群  
+
+* 理由：口味偏好  
+
+* 优先级：中优先级  
+
+* 成本：无  
+
+* 风险：无  
+
+* 可变性：增加更多菜系  
+
+##### 2.3 就餐方式  
+
+* 源头：不同的期望就餐地点  
+
+* 理由：可能不想在食堂吃  
+
+* 优先级：低优先级  
+
+* 成本：无  
+
+* 风险：外卖会接入第三方  
+
+* 可变性：也许会舍弃  
+
+##### 2.4 减肥模式  
+
+* 源头：想要减肥的朋友们  
+
+* 理由：减肥当然得健康饮食，低热量  
+
+* 优先级：中优先级  
+
+* 成本：无  
+
+* 风险：无  
+
+* 可变性：也许有一天大家都放弃了减肥  
+
+### 五、过程建模（5-24更新）
+
+#### （1）DFD图
+
+![DFD-1](https://img-blog.csdnimg.cn/20190524003245607.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
+![DFD-2](https://img-blog.csdnimg.cn/20190524003257993.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
+
+#### （2）数据字典
+
+数据项 | 名称 | 描述 | 组成 
+:-: | :- | :- | :-
+1 | 用户个人信息 | 存储用户基本信息 | 头像，微信号，学校等  
+2 | 用户菜品偏好信息 | 存储用户对于菜单的偏好信息 | 餐种，餐时，就餐方式，减肥模式等  
+
+## 六、数据建模（5-24更新）
+ERD建模：  
+![ERD](https://img-blog.csdnimg.cn/20190524004801180.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
 
 ## 小组分工（5-7更新）：  
 * 祁志洋 组长 负责组织组内同学，联系甲方乙方以及助教，协助需求分析和任务开发  
@@ -92,7 +199,7 @@ CSDN博客地址：https://blog.csdn.net/weixin_43480708
 	*组员按照之前分工情况完成工作*  
 	
 	
-## 任务说明（5-16更新）：  
+## 任务说明（5-24更新）：  
 
 ### 5-7周五报告说明  
 
@@ -107,3 +214,10 @@ CSDN博客地址：https://blog.csdn.net/weixin_43480708
 * 涉及分析和硬数据采样;  
 * 面谈;  
 * 原型。  
+
+### 5-25周五报告说明
+* 结构化需求分析概述（功能分解图、需求细化与优先级划分）（5分）  
+* 过程建模（DFD图、微规格说明、数据字典）（5分）  
+* 数据建模（简单情况下的ERD建模、硬数据ERD建模）（5分）  
+* 现场报告（5分）  
+* 技术博客/需求文档（5分）  
