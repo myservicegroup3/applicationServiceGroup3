@@ -6,8 +6,8 @@
 <button bindtap='' class='login'>
     联系作者
 </button>
-<button class="login" bindtap='' >我的收藏</button>
-  <button class="login" bindtap='' >最近订单</button>
+<button class="{{noreg}}" bindtap='' >我的收藏</button>
+  <button class="{{noreg}}" bindtap='' >最近订单</button>
   <button bindtap='{{dd}}' class='{{cc}}'>
   <text class='{{ff}}'>{{out}}</text> 
 </button>

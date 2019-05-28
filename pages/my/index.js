@@ -11,8 +11,9 @@ Page({
     imgsrc: '../../image/doge.jpg',
     out: '未登录',
     dd: "",
-    cc: "login",
-    ff: "fff0"
+    cc: "noregister",
+    ff: "fff0",
+    noreg:'noregister'
   },
   quit:function(){
     wx.navigateTo({

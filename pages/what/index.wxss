@@ -45,7 +45,7 @@ page{
   display: inline-block;
   width: 30rpx;
   height: 30rpx;
-  background: #f595d0;
+  background: #63a3df;
 }
 .filterList-characteristic-items{
   height: 220rpx;

@@ -5,13 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    array1:['a','b','c','d','e'],
+    suiji1:-1
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var random1 = Math.floor(Math.random() * 5);
+    this.setData({
+      suiji1: random1
+    })
 
   },
 

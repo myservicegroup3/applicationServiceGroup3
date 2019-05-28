@@ -4,12 +4,12 @@
   height: 280rpx;
  
 margin-left:30%;
-margin-bottom: 50rpx;
+margin-bottom: 10rpx;
   border-radius: 170rpx;
 }
 .back1{
-  margin-top: 10%;
-  padding: 30rpx;
+  margin-top: 0%;
+  padding: 20rpx;
  
 }
 .login0{
@@ -39,7 +39,7 @@ margin-bottom: 50rpx;
   margin-bottom: 40rpx;
 }
 .fff0{
-  color: #000;
+  color: #fff;
 }
 .fff{
   color: #fff;
@@ -50,9 +50,23 @@ margin-bottom: 50rpx;
   margin-top: 5px;
   justify-content: center;
   width: 80%;
+  height: 100rpx;
   color: #56abe4;
   margin-bottom: 40rpx;
 }
+.noregister{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: center;
+  width: 80%;
+  color: #fff;
+  margin-bottom: 40rpx;
+  background: #fff;
+}
+.noregister::after{
+  border: 0;
+}
 .foot{
-  height: 100rpx;
+  height: 0rpx;
 }

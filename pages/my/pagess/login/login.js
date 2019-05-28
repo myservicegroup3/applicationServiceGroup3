@@ -55,7 +55,8 @@ Page({
       out: "退出",
       dd: "quit",
       cc: "back3",
-      ff: "fff"
+      ff: "fff",
+      noreg:'login'
           })
   },
   getUserInfo: function(e) {

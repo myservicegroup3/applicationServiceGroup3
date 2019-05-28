@@ -12,9 +12,6 @@ Page({
     }, {
       text: "外卖"
     }, 
-      {
-        text: "出去吃"
-      }, 
       ],
     characteristicList1: [{
       text: "早餐"
