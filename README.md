@@ -61,15 +61,15 @@
 ### 四、结构化需求概述（5-24更新）  
 #### （1）功能分解图  
 
-![功能分析图](https://img-blog.csdnimg.cn/20190524002959887.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
+![功能分析图](https://img-blog.csdnimg.cn/20190524100929570.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
 
 #### （2）需求细化  
 
-##### 1、生成随机菜单  
+##### 1、一键生成菜单  
 
 * 源头：核心需求  
 
-* 理由：纠结吃什么，干脆随便  
+* 理由：方便快捷，一步到位  
 
 * 优先级:高优先级  
 
@@ -77,11 +77,11 @@
 
 * 可变性：无  
 
-##### 2、生成自选菜单  
+##### 2、偏好设置  
 
 * 源头：核心需求  
 
-* 理由：想自己决定  
+* 理由：根据用户需求限定菜品种类  
 
 * 优先级：高优先级  
 
@@ -163,7 +163,7 @@
 
 ## 六、数据建模（5-24更新）
 ERD建模：  
-![ERD](https://img-blog.csdnimg.cn/20190524004801180.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
+![ERD](https://img-blog.csdnimg.cn/20190524100247108.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
 
 ## 小组分工（5-7更新）：  
 * 祁志洋 组长 负责组织组内同学，联系甲方乙方以及助教，协助需求分析和任务开发  
