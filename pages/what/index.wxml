@@ -8,7 +8,7 @@
       </block>
     </view>
 
-    <view class="filterList-characteristic-title">就餐种类</view>
+    <view class="filterList-characteristic-title">用餐时间</view>
     <view class="filterList-characteristic-items">
       <block wx:for="{{characteristicList1}}" wx:key="">
         <view class="filterList-characteristic-item {{characteristicSelected[index]==true?'characteristic-selected':''}}"
@@ -16,20 +16,14 @@
       </block>
     </view>
 
-<view class="filterList-characteristic-title">就餐选择</view>
+<view class="filterList-characteristic-title">菜系选择</view>
     <view class="filterList-characteristic-items">
-      <block wx:for="{{characteristicList}}" wx:key="">
+      <block wx:for="{{characteristicList2}}" wx:key="">
         <view class="filterList-characteristic-item {{characteristicSelected[index]==true?'characteristic-selected':''}}"
         catchtap="characteristicSelected" data-index="{{index}}">{{item.text}}</view>
       </block>
     </view>
 
-<view class="filterList-characteristic-title">就餐选择</view>
-    <view class="filterList-characteristic-items">
-      <block wx:for="{{characteristicList}}" wx:key="">
-        <view class="filterList-characteristic-item {{characteristicSelected[index]==true?'characteristic-selected':''}}"
-        catchtap="characteristicSelected" data-index="{{index}}">{{item.text}}</view>
-      </block>
-    </view>
+
 <view class='foot'></view>
 

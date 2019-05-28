@@ -13,6 +13,12 @@ Page({
       text: "外卖"
     }, 
       ],
+    characteristicList3: [{
+      text: "普通模式"
+    }, {
+      text: "减肥模式"
+    }, 
+    ],
     characteristicList1: [{
       text: "早餐"
     }, {
@@ -24,12 +30,15 @@ Page({
       },
     ],
     characteristicList2: [{
-      text: "北食堂"
+      text: "日餐"
     }, {
-      text: "南食堂"
+      text: "中餐"
     }, {
-      text: "外卖"
+      text: "韩餐"
     },
+      {
+        text: "韩餐"
+      },
     ],
   },
 

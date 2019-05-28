@@ -23,13 +23,15 @@
     "list": [
       {
         "pagePath": "pages/main/index",
-        
+        "iconPath": "image/tabbar/choose1.png",
+        "selectedIconPath": "image/tabbar/choose2.png",
         "text": "一键选择"
       },
       {
         "pagePath": "pages/what/index",
-   
-        "text": "偏好设置"
+    "iconPath": "image/tabbar/list1.png",
+    "selectedIconPath": "image/tabbar/list2.png",
+        "text": "菜单种类"
       },
       {
         "pagePath": "pages/my/index",

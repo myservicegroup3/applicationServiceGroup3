@@ -2,11 +2,13 @@
 
 
   <view class="{{block1}}"></view>
+  
   <view class="block2">
     <text bindtap='tomenu'>一键选择
     </text>
   </view>
   <view class="{{block3}}"></view>
+  <view class=""></view>
   <view class='foot'>
      <button class='foot1' bindtap='normal'>普通模式</button>
      <button class='foot2' bindtap='diet'>减肥模式</button>
