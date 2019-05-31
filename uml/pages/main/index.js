@@ -1,26 +1,40 @@
-// pages/main/pagess/menu/menu.js
+// pages/main/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    text:['这是爱心瓶子','这是面膜','这是镜子','这是doge',],
-    img: ['../../../../image/w1.png', '../../../../image/w6.png', '../../../../image/w8.png','../../../../image/doge.jpg'],
-    suiji1:-1,
-    suiji2: -1
+     block1:'block1',
+     block3:'block3'
   },
 
+  tomenu: function () {
+    wx.navigateTo({
+      url: '../main/pagess/menu/menu'
+    })
+  },
+  normal:function()
+  {
+    var that=this;
+    that.setData({
+      block1:'block1',
+      block3:'block3'
+    })
+    this.onLoad();
+  },
+  diet: function () {
+    var that = this;
+    that.setData({
+      block1: 'block1-2',
+      block3: 'block3-2'
+    })
+    this.onLoad();
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var random1 = Math.floor(Math.random() * 4);
-    var random2 = Math.floor(Math.random() * 4);
-    this.setData({
-      suiji1: random1,
-      suiji2: random2
-    })
 
   },
 

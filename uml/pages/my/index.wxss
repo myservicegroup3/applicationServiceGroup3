@@ -1,0 +1,72 @@
+/* pages/my/index.wxss */
+.f{
+  width: 280rpx;
+  height: 280rpx;
+ 
+margin-left:30%;
+margin-bottom: 10rpx;
+  border-radius: 170rpx;
+}
+.back1{
+  margin-top: 0%;
+  padding: 20rpx;
+ 
+}
+.login0{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ width: 50%;
+ color:#3276a3;
+ background:rgb(245, 188, 114);
+}
+.back2{
+  margin:8rpx;
+  background-color: #c9c4c4;
+  justify-content: center;
+  align-items: center;
+  height:100rpx;
+ display: flex;
+ border-radius: 3rpx;
+}
+.back3{
+ display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: center;
+  width: 80%;
+  background-color: #d61414c5;
+  margin-bottom: 40rpx;
+}
+.fff0{
+  color: #fff;
+}
+.fff{
+  color: #fff;
+}
+.login{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: center;
+  width: 80%;
+  height: 100rpx;
+  color: #56abe4;
+  margin-bottom: 40rpx;
+}
+.noregister{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: center;
+  width: 80%;
+  color: #fff;
+  margin-bottom: 40rpx;
+  background: #fff;
+}
+.noregister::after{
+  border: 0;
+}
+.foot{
+  height: 0rpx;
+}

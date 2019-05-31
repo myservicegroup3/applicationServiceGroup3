@@ -1,26 +1,49 @@
-// pages/main/pagess/menu/menu.js
+// pages/my/index.js
+const app = getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    text:['这是爱心瓶子','这是面膜','这是镜子','这是doge',],
-    img: ['../../../../image/w1.png', '../../../../image/w6.png', '../../../../image/w8.png','../../../../image/doge.jpg'],
-    suiji1:-1,
-    suiji2: -1
+    nickname: "点击登录",
+    imgsrc: '../../image/doge.jpg',
+    out: '未登录',
+    dd: "",
+    cc: "noregister",
+    ff: "fff0",
+    noreg:'noregister'
   },
-
+  quit:function(){
+    wx.navigateTo({
+      url: 'pagess/quit/quit',
+    })
+  },
+  demo: function () {
+    wx.navigateTo({
+      url: '../my/pagess/login/login'
+    })
+  },
+  demo1: function () {
+    wx.navigateTo({
+      url: '../third/pagess/login/login'
+    })
+  },
+  demo2: function () {
+    wx.navigateTo({
+      url: '../third/pagess/contact/contact'
+    })
+  },
+  demo3: function () {
+    wx.navigateTo({
+      url: '../third/pagess/setting/setting'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var random1 = Math.floor(Math.random() * 4);
-    var random2 = Math.floor(Math.random() * 4);
-    this.setData({
-      suiji1: random1,
-      suiji2: random2
-    })
 
   },
 
