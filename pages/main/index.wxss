@@ -14,6 +14,40 @@
   margin-top: 10rpx;
   border-radius: 30rpx;
 }
+.bias2{
+  position: absolute;
+  height: 70rpx;
+  width:70rpx;
+  background: blue;
+  left: 88%;
+  top: 10rpx;
+  border-radius: 30rpx;
+   z-index: 4;
+}
+.play{
+  margin-top: 30rpx;
+  margin-left: 11%;
+  height: 65%;
+    width: 65%;
+    position: fixed;
+    background-color:white;
+    z-index: 2;
+    border-radius: 40rpx;
+    border:solid 20rpx rgb(104, 102, 102);
+    opacity: 0.8;
+    padding: 30rpx;
+}
+.playcontent{
+  height: 100%;
+  width: 100%;
+  background: red;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
 .block1{
   position: absolute;
   margin-left: 0;

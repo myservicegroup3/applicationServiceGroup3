@@ -3,6 +3,7 @@
     "pages/main/index",
     "pages/main/pagess/menu/menu",
     "pages/what/index",
+    "pages/categories/index",
     "pages/my/index",
     "pages/my/pagess/login/login",
     "pages/my/pagess/logs/logs",
@@ -28,7 +29,7 @@
         "text": "一键选择"
       },
       {
-        "pagePath": "pages/what/index",
+        "pagePath": "pages/categories/index",
         "iconPath": "image/tabbar/list1.png",
         "selectedIconPath": "image/tabbar/list2.png",
         "text": "菜单"

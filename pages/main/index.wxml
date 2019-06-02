@@ -1,11 +1,16 @@
 <!--pages/main/index.wxml-->
-
-  <view class='bias' bindtap='bias'></view>
+<view>
+  <view class='bias' bindtap='biass'></view>
+  <view class="bias2' {{istrue==1?'show':'hide'}}" bindtap='biass2'></view>
+  <view class="play {{istrue==1?'show':'hide'}}">
+     <view class="playcontent">
+     </view>
+  </view>
   <view class="{{block1}}"></view>
   <view class="block2">
     <text bindtap='tomenu'>一键选择
     </text>
   </view>
   <view class="{{block3}}"></view>
- 
+</view> 
 

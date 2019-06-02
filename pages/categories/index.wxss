@@ -1,0 +1,50 @@
+/* pages/categories/index.wxss */
+.container{
+  display: flex;
+}
+.head{
+  background: green;
+  width: 100%;
+  height: 80rpx;
+  margin-bottom: 3rpx;
+}
+.left{
+   background: red;
+   margin-left:5rpx;
+   width: 200rpx;
+   height:980rpx; 
+}
+.inleft{
+  display: flex;
+  margin: 10rpx;
+  height: 90rpx;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+}
+.right{
+   background: blueviolet;
+   margin-left:8rpx;
+   margin-right: 8rpx;
+   width: 530rpx;
+   height: 880rpx; 
+}
+.inright{
+  margin: 10rpx;
+  width: 510rpx;
+  height: 260rpx;
+  background: #fff;
+  display: flex;
+}
+.rimg{
+   background: orange;
+   width: 250rpx;
+   height: 240rpx;
+   margin: 10rpx;
+}
+.rtext{
+  background: orange;
+   width: 250rpx;
+   height: 240rpx;
+   margin: 10rpx; 
+}

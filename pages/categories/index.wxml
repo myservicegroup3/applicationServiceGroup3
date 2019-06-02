@@ -1,0 +1,17 @@
+<!--pages/categories/index.wxml-->
+<view class='head'></view>
+<view class='container'>
+  <view class='left'>
+    <view class='inleft'><text>kjhgfc</text></view>
+  </view>
+  <view class='right'>
+    <view class='inright'>
+      <image class='rimg'></image>
+      <view class='rtext'></view>
+    </view>
+    <view class='inright'>
+      <image class='rimg'></image>
+      <view class='rtext'></view>
+    </view>
+  </view>
+</view>
