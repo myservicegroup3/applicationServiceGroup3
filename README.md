@@ -161,9 +161,13 @@
 1 | 用户个人信息 | 存储用户基本信息 | 头像，微信号，学校等  
 2 | 用户菜品偏好信息 | 存储用户对于菜单的偏好信息 | 餐种，餐时，就餐方式，减肥模式等  
 
-## 六、数据建模（5-24更新）
+### 六、数据建模（5-24更新）
 ERD建模：  
 ![ERD](https://img-blog.csdnimg.cn/20190524100247108.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
+
+### 七、UML建模（6-3更新）  
+
+#### （1）用例图  
 
 ## 小组分工（5-7更新）：  
 * 祁志洋 组长 负责组织组内同学，联系甲方乙方以及助教，协助需求分析和任务开发  
