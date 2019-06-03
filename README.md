@@ -3,6 +3,7 @@
 * 5-7 第一次更新 *“今天吃什么”项目计划*
 * 5-16 第二次更新 *“今天吃什么” 项目前景和范围文档*
 * 5-24 第三次更新 *“今天吃什么” 结构化需求分析*  
+* 6-3 第四次更新 *“今天吃什么” UML建模*  
 
 ## 本组选题：今天吃什么  
 
@@ -168,6 +169,16 @@ ERD建模：
 ### 七、UML建模（6-3更新）  
 
 #### （1）用例图  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190603094620638.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)  
+
+#### 静态UML图（类图）  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190603094723933.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)  
+
+#### 动态UML图（交互图、状态图、活动图）  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190603094813658.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)   
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190603094823439.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2019060309483744.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)  
+
 
 ## 小组分工（5-7更新）：  
 * 祁志洋 组长 负责组织组内同学，联系甲方乙方以及助教，协助需求分析和任务开发  
