@@ -36,6 +36,7 @@ App({
   globalData: {
     userInfo: null,
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    which:1
   }
 })

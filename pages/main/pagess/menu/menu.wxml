@@ -1,19 +1,33 @@
 <view class='container'>
    <view class='title'>MENU</view>
    <view class='head'></view>
+   <!-- 第一个菜品 -->
    <view class='items'>
-      <image class='img' src='{{img[suiji1]}}'></image>
-      <view class='text'>
-             <text>{{text[suiji1]}}</text>
-      </view>     
+   <!-- 从某类里挑选 -->
+      <image class='img' src='{{north_img[suiji1]}}'  wx:if="{{menuwhich==2}}"></image>
+      <view class='text' wx:if="{{menuwhich==2}}">
+             <text>{{north[suiji1]}}</text>
+      </view>  
+    <!-- 从另一类里挑选 -->
+      <image class='img' src='{{south_img[suiji1]}}'  wx:if="{{menuwhich==3}}"></image>
+      <view class='text' wx:elif="{{menuwhich==3}}">
+             <text>{{south[suiji1]}}</text>
+      </view>   
+      <!-- 可以继续加类别（只要复制模板就好） -->
    </view>
+   <!-- 第二个菜品 -->
    <view class='items'>
-     
-      <image class='img' src='{{img[suiji2]}}'></image>
-   
-      <view class='text'>
-             <text>{{text[suiji2]}}</text>
-      </view>     
+    <!-- 从某类里挑选 -->
+      <image class='img' src='{{north_img[suiji1]}}'  wx:if="{{menuwhich==2}}"></image>
+      <view class='text' wx:if="{{menuwhich==2}}">
+             <text>{{north[suiji1]}}</text>
+      </view>  
+    <!-- 从另一类里挑选 -->
+      <image class='img' src='{{south_img[suiji1]}}'  wx:if="{{menuwhich==3}}"></image>
+      <view class='text' wx:elif="{{menuwhich==3}}">
+             <text>{{south[suiji1]}}</text>
+      </view>   
+      <!-- 可以继续加类别（只要复制模板就好） -->    
    </view>
    <view class='foot'></view>
 </view>

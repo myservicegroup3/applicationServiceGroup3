@@ -5,14 +5,44 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+       yes:true,
+       isture1:1,
+       istrue2:0,
+       istrue3:0
   },
-
+  inleft1:function(){
+    this.setData({
+      yes:true,
+      isture1:1,
+      istrue2:0,
+      istrue3: 0
+    })
+  },
+  inleft2: function () {
+    this.setData({
+      yes: false,
+      isture1: 0,
+      istrue2: 1,
+      istrue3: 0
+    })
+  },
+  inleft3: function () {
+    this.setData({
+      yes: false,
+      isture1: 0,
+      istrue2: 0,
+      istrue3: 1
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+   this.setData({
+     isture1:1,
+     istrue2:0,
+     istrue3:0
+   })
   },
 
   /**

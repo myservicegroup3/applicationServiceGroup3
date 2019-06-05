@@ -1,27 +1,49 @@
 // pages/main/pagess/menu/menu.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    text:['这是爱心瓶子','这是面膜','这是镜子','这是doge',],
-    img: ['../../../../image/w1.png', '../../../../image/w6.png', '../../../../image/w8.png','../../../../image/doge.jpg'],
+    // 一类
+    north: ['北食堂1', '北食堂2', '北食堂3','北食堂4',],
+    //另一类
+    south: ['南食堂1', '南食堂2', '南食堂3', '南食堂4',],
+    //一类的图
+    north_img: ['../../../../image/w1.png', '../../../../image/w6.png', '../../../../image/w8.png','../../../../image/doge.jpg'],
+    //另一类的图
+    south_img: ['../../../../image/w1.png', '../../../../image/w6.png', '../../../../image/w8.png', '../../../../image/doge.jpg'],
+
+
     suiji1:-1,
-    suiji2: -1
+    suiji2: -1,
+    menuwhich:0,
+    text: [{ s: '' }, { s: '' }, { s: '' }, { s: '' },],
+    dd:0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log(app.globalData)
+    var that = this;
+    that.setData({
+      menuwhich:app.globalData.which
+    })
+    var pages = getCurrentPages();
+    var currPage = null;
+    var prevPage = null;
+
+    currPage = pages[pages.length - 1];
+    prevPage = pages[pages.length - 2];
     var random1 = Math.floor(Math.random() * 4);
     var random2 = Math.floor(Math.random() * 4);
     this.setData({
       suiji1: random1,
-      suiji2: random2
+      suiji2: random2,
     })
-
   },
 
   /**

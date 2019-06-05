@@ -2,7 +2,6 @@
   "pages": [
     "pages/main/index",
     "pages/main/pagess/menu/menu",
-    "pages/what/index",
     "pages/categories/index",
     "pages/my/index",
     "pages/my/pagess/login/login",

@@ -8,7 +8,9 @@ Page({
      block1:'block1',
      block3:'block3',
      istrue:0,
-     dd:0
+     dd:0,
+
+     all:0,
   },
 
   tomenu: function () {
@@ -20,6 +22,70 @@ Page({
       this.setData({
         istrue: 1,
       })
+  },
+  one: function () {
+    var app = getApp();
+    console.log(app.globalData);
+    app.globalData.which = 1
+    this.setData({
+      one:1,two:0,three:0,four:0,five:0,six:0,seven:0,eight:0
+    })
+  },
+  two: function () {
+    var app = getApp();
+    console.log(app.globalData);
+    app.globalData.which = 2
+    this.setData({
+      one: 0, two: 1, three: 0, four: 0, five: 0, six: 0, seven: 0, eight: 0
+    })
+  },
+  three: function () {
+    var app = getApp();
+    console.log(app.globalData);
+    app.globalData.which = 3
+    this.setData({
+      one: 0, two: 0, three: 1, four: 0, five: 0, six: 0, seven: 0, eight: 0
+    })
+  },
+  four: function () {
+    var app = getApp();
+    console.log(app.globalData);
+    app.globalData.which = 4
+    this.setData({
+      one: 0, two: 0, three: 0, four: 1, five: 0, six: 0, seven: 0, eight: 0
+    })
+  },
+  five: function () {
+    var app = getApp();
+    console.log(app.globalData);
+    app.globalData.which = 5
+    this.setData({
+      one: 0, two: 0, three: 0, four: 0, five: 1, six: 0, seven: 0, eight: 0
+    })
+  },
+  six: function () {
+    var app = getApp();
+    console.log(app.globalData);
+    app.globalData.which = 6
+    this.setData({
+      one: 0, two: 0, three: 0, four: 0, five: 0, six: 1, seven: 0, eight: 0
+    })
+  },
+  seven: function () {
+    var app = getApp();
+    console.log(app.globalData);
+    app.globalData.which = 7
+    this.setData({
+      one: 0, two: 0, three: 0, four: 0, five: 0, six: 0, seven: 1, eight: 0
+    })
+  },
+  eight: function () {
+    var app = getApp();
+    console.log(app.globalData);
+    app.globalData.which = 8
+    this.setData({
+      one: 0, two: 0, three: 0, four: 0, five: 0, six: 0, seven: 0, eight: 1
+    })
   },
   biass2: function () {
     this.setData({
