@@ -19,7 +19,6 @@ Page({
     suiji1:-1,
     suiji2: -1,
     menuwhich:0,
-    text: [{ s: '' }, { s: '' }, { s: '' }, { s: '' },],
     dd:0
   },
 

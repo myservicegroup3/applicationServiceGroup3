@@ -4,13 +4,18 @@
    <!-- 第一个菜品 -->
    <view class='items'>
    <!-- 从某类里挑选 -->
+      <image class='img' src='{{north_img[suiji1]}}'  wx:if="{{menuwhich==1}}"></image>
+      <view class='text' wx:if="{{menuwhich==1}}">
+             <text>这是全部，你先选个标签</text>
+      </view>  
+    <!-- 从另一类里挑选 -->
       <image class='img' src='{{north_img[suiji1]}}'  wx:if="{{menuwhich==2}}"></image>
       <view class='text' wx:if="{{menuwhich==2}}">
              <text>{{north[suiji1]}}</text>
-      </view>  
-    <!-- 从另一类里挑选 -->
+      </view>   
+      <!-- 从另一类里挑选 -->
       <image class='img' src='{{south_img[suiji1]}}'  wx:if="{{menuwhich==3}}"></image>
-      <view class='text' wx:elif="{{menuwhich==3}}">
+      <view class='text' wx:if="{{menuwhich==3}}">
              <text>{{south[suiji1]}}</text>
       </view>   
       <!-- 可以继续加类别（只要复制模板就好） -->
@@ -24,7 +29,7 @@
       </view>  
     <!-- 从另一类里挑选 -->
       <image class='img' src='{{south_img[suiji1]}}'  wx:if="{{menuwhich==3}}"></image>
-      <view class='text' wx:elif="{{menuwhich==3}}">
+      <view class='text' wx:if="{{menuwhich==3}}">
              <text>{{south[suiji1]}}</text>
       </view>   
       <!-- 可以继续加类别（只要复制模板就好） -->    

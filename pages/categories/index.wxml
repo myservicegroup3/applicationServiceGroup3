@@ -1,17 +1,19 @@
 <!--pages/categories/index.wxml-->
-<view class='head'></view>
+
 <view class='container'>
+<view class='head'></view>
   <view class='left'>
     <view class="inleft {{yes?'yes':'no'}}" bindtap='inleft1'><text>类别名</text></view>
     <view class="inleft {{istrue2==1?'yes':'no'}}" bindtap='inleft2'><text>2</text></view>
     <view class="inleft {{istrue3==1?'yes':'no'}}" bindtap='inleft3'><text>3</text></view>
   </view>
 <!-- 选左边第一个按钮出现这个页面 -->
-  <view class="right" wx:if="{{yes}}">
+<view class="right" wx:if="{{yes}}">
+  <view class='right_back'>
     <view class="inright">
-      <image class='rimg'></image>
+      <image class='rimg' src='../../image/doge.jpg'></image>
       <view class='rtext'>
-          <text>菜名</text>
+          菜名
       </view>
     </view>
     <view class='inright'>
@@ -21,12 +23,29 @@
       </view>
     </view>
   </view>
-<!-- 选左边第二个按钮出现这个页面 -->
-  <view class="right' {{istrue2==1?'show':'hide'}}">
+  <!--  -->
+  <view class='right_back'>
+    <view class="inright">
+      <image class='rimg' src='../../image/doge.jpg'></image>
+      <view class='rtext'>
+          菜名
+      </view>
+    </view>
     <view class='inright'>
       <image class='rimg'></image>
       <view class='rtext'>
-         <text>2</text>
+          <text>1</text>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 选左边第二个按钮出现这个页面 -->
+<view class="right" wx:if="{{istrue2==1}}">
+  <view class='right_back'>
+    <view class="inright">
+      <image class='rimg' src='../../image/doge.jpg'></image>
+      <view class='rtext'>
+          菜名
       </view>
     </view>
     <view class='inright'>
@@ -36,12 +55,14 @@
       </view>
     </view>
   </view>
+</view>
 <!-- 选左边第三个按钮出现这个页面 -->
-  <view class="right' {{istrue3==1?'show':'hide'}}">
-    <view class='inright'>
-      <image class='rimg'></image>
+<scoll-view class="right" wx:if="{{istrue3==1}}">
+  <view class='right_back'>
+    <view class="inright">
+      <image class='rimg' src='../../image/doge.jpg'></image>
       <view class='rtext'>
-         <text>3</text>
+          菜名
       </view>
     </view>
     <view class='inright'>
@@ -51,4 +72,5 @@
       </view>
     </view>
   </view>
+ </scoll-view>
 </view>

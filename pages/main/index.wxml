@@ -3,8 +3,9 @@
   <image class='bias' bindtap='biass'></image>
   <image class="bias2' {{istrue==1?'show':'hide'}}" bindtap='biass2'></image>
   <view class="play {{istrue==1?'show':'hide'}}">
+  <!--  -->
      <view class="playcontent">
-        <view class='title'>请选择您的偏好：</view>
+        <view class='title'>地点：</view>
         <view class='line'></view>
         <view class='buttons'>
               <button class="onebutton {{one==1?'yes':'no'}}" bindtap='one'>全部</button>
@@ -12,11 +13,34 @@
               <button class="onebutton {{three==1?'yes':'no'}}" bindtap='three'>南食堂</button>
               <button class="onebutton {{four==1?'yes':'no'}}" bindtap='four'>这</button>
               <button class="onebutton {{five==1?'yes':'no'}}" bindtap='five'>些</button>
-              <button class="onebutton {{six==1?'yes':'no'}}" bindtap='six'>可</button>
-              <button class="onebutton {{seven==1?'yes':'no'}}" bindtap='seven'>以</button>
-              <button class="onebutton {{eight==1?'yes':'no'}}" bindtap='eight'>改</button>   
+              <button class="onebutton {{six==1?'yes':'no'}}" bindtap='six'>可</button>   
         </view>
      </view>
+     <!--  -->
+     <view class="playcontent">
+        <view class='title'>地点：</view>
+        <view class='line'></view>
+        <view class='buttons'>
+              <button class="onebutton {{one==1?'yes':'no'}}" bindtap='one'>全部</button>
+              <button class="onebutton {{two==1?'yes':'no'}}" bindtap='two'>北食堂</button>
+              <button class="onebutton {{three==1?'yes':'no'}}" bindtap='three'>南食堂</button>
+              <button class="onebutton {{four==1?'yes':'no'}}" bindtap='four'>这</button>  
+        </view>
+     </view>
+     <!--  -->
+     <view class="playcontent">
+        <view class='title'>地点：</view>
+        <view class='line'></view>
+        <view class='buttons'>
+              <button class="onebutton {{one==1?'yes':'no'}}" bindtap='one'>全部</button>
+              <button class="onebutton {{two==1?'yes':'no'}}" bindtap='two'>北食堂</button>
+              <button class="onebutton {{three==1?'yes':'no'}}" bindtap='three'>南食堂</button>
+              <button class="onebutton {{four==1?'yes':'no'}}" bindtap='four'>这</button>
+              <button class="onebutton {{five==1?'yes':'no'}}" bindtap='five'>些</button>
+              <button class="onebutton {{six==1?'yes':'no'}}" bindtap='six'>可</button>   
+        </view>
+     </view>
+     <!--  -->
   </view>
   <view class="{{block1}}"></view>
   <view class="block2">

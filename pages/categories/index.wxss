@@ -1,60 +1,69 @@
 /* pages/categories/index.wxss */
 .container{
-  display: flex;
+height: 100%;
+width: 100%;
 }
-
-
-
-
-
-
-
-
-
 .head{
-  background: rgb(243, 205, 162);
+  position: fixed;
+  z-index: 4;
+  background: rgb(252, 238, 210);
   width: 100%;
   height: 80rpx;
-  margin-bottom: 3rpx;
 }
 .left{
-   background: rgb(221, 220, 220);
-   margin-left:5rpx;
-   width: 200rpx;
-   height:980rpx; 
+   position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 80rpx;
+  float: left;
+   background: white;
+   width: 200rpx;   
 }
 .inleft{
   display: flex;
-  margin: 10rpx;
   height: 90rpx;
+  width:200rpx; 
   align-items: center;
   justify-content: center;
 }
 .yes{
-background: rgb(216, 166, 91);
+    background: rgb(226, 226, 226);
 }
 .no{
-background: rgb(255, 255, 255);
+  background: white;
 }
 .right{
-   background: rgb(254, 254, 255);
-   margin-left:8rpx;
-   margin-right: 8rpx;
-   width: 530rpx;
-   height: 880rpx; 
+   position: absolute;
+  z-index: 3;
+  left: 200rpx;
+  top: 80rpx;
+  float: left;
+   background: rgb(226, 226, 226);
+   width: 552rpx;
 }
 .show{
-    display: fixed;
+  display: block;
 }
 .hide{
-    display: none;
+  display: none;
+}
+.right_back{
+  background: rgb(226, 226, 226);
+  margin-left:10rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+   width: 520rpx; 
+   padding-top:15rpx;
+   padding-bottom:20rpx;  
 }
 .inright{
+  display: flex;
   margin: 10rpx;
-  width: 510rpx;
+  width: 500rpx;
   height: 260rpx;
   background: #fff;
-  display: flex;
+  align-items: center;
+  justify-content: center
 }
 .rimg{
    background: orange;
@@ -64,10 +73,10 @@ background: rgb(255, 255, 255);
 }
 .rtext{
   background: orange;
-   width: 250rpx;
+   width: 220rpx;
    height: 240rpx;
    margin: 10rpx; 
+    display: flex;
     align-items: center;
   justify-content: center;
-  display: flex;
 }
