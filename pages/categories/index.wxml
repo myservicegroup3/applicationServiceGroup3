@@ -1,78 +1,330 @@
 <!--pages/categories/index.wxml-->
 
 <view class='container'>
-<view class='head'></view>
+  <view class='head'></view>
   <view class='left'>
-    <view class="inleft {{yes?'yes':'no'}}" bindtap='inleft1'><text>类别名</text></view>
-    <view class="inleft {{istrue2==1?'yes':'no'}}" bindtap='inleft2'><text>2</text></view>
-    <view class="inleft {{istrue3==1?'yes':'no'}}" bindtap='inleft3'><text>3</text></view>
-  </view>
-<!-- 选左边第一个按钮出现这个页面 -->
-<view class="right" wx:if="{{yes}}">
-  <view class='right_back'>
-   <view class='title'>早：</view>
-    <view class="inright">
-      <image class='rimg' src='../../image/doge.jpg'></image>
-      <view class='rtext'>
-          菜名
-      </view>
+    <view class="inleft {{yes?'yes':'no'}}" bindtap='inleft1'>
+      <text>南食堂</text>
     </view>
-    <view class='inright'>
-      <image class='rimg'></image>
-      <view class='rtext'>
-          <text>1</text>
-      </view>
+    <view class="inleft {{istrue2==1?'yes':'no'}}" bindtap='inleft2'>
+      <text>北食堂</text>
+    </view>
+    <view class="inleft {{istrue3==1?'yes':'no'}}" bindtap='inleft3'>
+      <text>外卖</text>
+    </view>
+    <view class="inleft {{istrue4==1?'yes':'no'}}" bindtap='inleft4'>
+      <text>南(减肥)</text>
+    </view>
+    <view class="inleft {{istrue5==1?'yes':'no'}}" bindtap='inleft5'>
+      <text>北(减肥)</text>
+    </view>
+    <view class="inleft {{istrue6==1?'yes':'no'}}" bindtap='inleft6'>
+      <text>外卖(减肥)</text>
     </view>
   </view>
-  <!--  -->
-  <view class='right_back'>
-  <view class='title'>早：</view>
-    <view class="inright">
-      <image class='rimg' src='../../image/doge.jpg'></image>
-      <view class='rtext'>
-          菜名
+  <!-- 选左边第一个按钮出现这个页面 -->
+  <view class="right" wx:if="{{yes}}">
+    <view class='right_back'>
+      <view class='title'>早：</view>
+      <view class="inright">
+        <image class='rimg' src='../../菜单类/南/早饭/南一包子.jpg'></image>
+       <view class='rtext'>小笼包</view>
+        
+      </view>
+      <view class="inright">
+        <image class='rimg' src='../../菜单类/南/早饭/南一煎饼.jpg'></image>
+         <view class='rtext'>煎饼</view>
+      </view>
+       <view class="inright">
+         <image class='rimg' src='../../菜单类/南/早饭/南一紫薯包.jpg'></image>
+         <view class='rtext'>紫薯包</view>
+      </view>
+     <view class="inright">
+      
+        <image class='rimg' src='../../菜单类/南/早饭/南一豆沙包.jpg'></image>
+         <view class='rtext'>豆沙包</view>
       </view>
     </view>
-    <view class='inright'>
-      <image class='rimg'></image>
-      <view class='rtext'>
-          <text>1</text>
+    <!--  -->
+    <view class='right_back'>
+      <view class='title'>午晚：</view>
+      <view class="inright">
+      
+         <image class='rimg' src='../../菜单类/南/午晚/南一瓦罐汤.jpg'></image>
+         <view class='rtext'>瓦罐汤</view>
+      </view>
+      
+      <view class="inright">
+       
+        <image class='rimg' src='../../菜单类/南/午晚/南二酸辣粉.jpg'></image>
+        <view class='rtext'>酸辣粉</view>
+      </view>
+      <view class="inright">
+       
+        <image class='rimg' src='../../菜单类/南/午晚/南三石锅拌饭.jpg'></image>
+        <view class='rtext'>石锅拌饭</view>
+      </view>
+      <view class='inright'>
+        
+        <image class='rimg' src='../../菜单类/南/午晚/南三金汤酸菜鱼.jpg'></image>
+        <view class='rtext'>酸菜鱼</view>
+
+      </view>
+      <view class='inright'>
+        
+       <image class='rimg' src='../../菜单类/南/午晚/培根炒西兰花.jpg'></image>
+        <view class='rtext'>培根西兰花</view>
+
+      </view>
+      <view class='inright'>
+        
+        <image class='rimg' src='../../菜单类/南/午晚/红烧肉.jpg'></image>
+                <view class='rtext'>红烧肉</view>
+      </view>
+       <view class='inright'>
+        
+      <image class='rimg' src='../../菜单类/南/午晚/西红柿炒鸡蛋.jpg'></image>
+                <view class='rtext'>西红柿炒鸡蛋</view>
+      </view>
+      <view class='inright'>
+        
+        <image class='rimg' src='../../菜单类/南/午晚/辣子鸡丁.jpg'></image>
+        <view class='rtext'>辣子鸡丁</view>
+      </view>
+      <view class='inright'>
+        <image class='rimg' src='../../菜单类/南/午晚/醋溜土豆丝.jpg'></image>
+            <view class='rtext'>酸溜土豆丝</view>
+
       </view>
     </view>
   </view>
-</view>
-<!-- 选左边第二个按钮出现这个页面 -->
-<view class="right" wx:if="{{istrue2==1}}">
-  <view class='right_back'>
-    <view class="inright">
-      <image class='rimg' src='../../image/doge.jpg'></image>
-      <view class='rtext'>
-          菜名
+  <!-- 选左边第二个按钮出现这个页面 -->
+  <view class="right" wx:if="{{istrue2==1}}">
+     <view class='right_back'>
+      <view class='title'>早：</view>
+      <view class="inright">
+             <image class='rimg' src='../../菜单类/北/早点/北一奶黄包.jpg'></image>
+       <view class='rtext'>奶黄包</view>
+        
+      </view>
+      <view class="inright">
+  
+        <image class='rimg' src='../../菜单类/北/早点/北一泡面.jpg'></image>
+           <view class='rtext'>泡面</view>
+        
+      </view>
+       <view class="inright">
+  
+           <image class='rimg' src='../../菜单类/北/早点/北一烧卖.jpg'></image>
+           <view class='rtext'>烧卖</view>
+        
+      </view>
+     <view class="inright">
+ 
+        <image class='rimg' src='../../菜单类/北/早点/北一肉饼.jpg'></image>
+        <view class='rtext'>肉饼</view>
+        
       </view>
     </view>
-    <view class='inright'>
-      <image class='rimg'></image>
-      <view class='rtext'>
-          <text>2</text>
+    <!--  -->
+    <view class='right_back'>
+      <view class='title'>午晚：</view>
+      <view class="inright">
+ 
+    <image class='rimg' src='../../菜单类/北/午晚/北一木须肉.jpg'></image>
+        <view class='rtext'>木须肉</view>
+        
       </view>
+      <view class="inright">
+        
+        <image class='rimg' src='../../菜单类/北/午晚/北一糖醋里脊.jpg'></image>
+          <view class='rtext'>糖醋里脊</view>
+      </view>
+      <view class="inright">
+        
+             <image class='rimg' src='../../菜单类/北/午晚/北二卤肉饭.jpg'></image>
+          <view class='rtext'>卤肉饭</view>
+      </view>
+      <view class='inright'>
+   
+        <image class='rimg' src='../../菜单类/北/午晚/北三烤肉饭.jpg'></image>
+        <view class='rtext'>烤肉饭</view>
+
+      </view>
+      <view class='inright'>
+   
+        <image class='rimg' src='../../菜单类/北/午晚/北三烤鸭.jpg'></image>
+        <view class='rtext'>烤鸭</view>
+
+      </view>
+      <view class='inright'>
+   
+        <image class='rimg' src='../../菜单类/北/午晚/北三木桶饭.jpg'></image>
+        <view class='rtext'>木桶饭</view>
+
+      </view>
+      <view class='inright'>
+   
+        <image class='rimg' src='../../菜单类/北/午晚/北三香河肉饼.jpg'></image>
+        <view class='rtext'>香河肉饼</view>
+
+      </view>
+      <view class='inright'>
+   
+        <image class='rimg' src='../../菜单类/北/午晚/北三黄焖鸡米饭.jpg'></image>
+        <view class='rtext'>黄焖鸡米饭</view>
+
+      </view>
+      
+
     </view>
   </view>
-</view>
-<!-- 选左边第三个按钮出现这个页面 -->
-<scoll-view class="right" wx:if="{{istrue3==1}}">
-  <view class='right_back'>
-    <view class="inright">
-      <image class='rimg' src='../../image/doge.jpg'></image>
-      <view class='rtext'>
-          菜名
+  <!-- 选左边第三个按钮出现这个页面 -->
+  <view class="right" wx:if="{{istrue3==1}}">
+   <view class='right_back'>
+      <view class='title'>早：</view>
+      <view class='inright'>
+   <image class='rimg' src='../../菜单类/外卖/早点/外卖云吞面.jpg'></image>
+        <view class='rtext'>云吞面</view>
+
       </view>
+      <view class='inright'>
+        <image class='rimg' src='../../菜单类/外卖/早点/外卖帕尼尼.jpg'></image>
+        <view class='rtext'>帕尼尼</view>
+
+      </view>
+      <view class='inright'>
+        <image class='rimg' src='../../菜单类/外卖/早点/外卖手抓饼.jpg'></image>
+        <view class='rtext'>手抓饼</view>
+
+      </view>
+      <view class='inright'>
+        <image class='rimg' src='../../菜单类/外卖/早点/外卖肠粉.jpg'></image>
+        <view class='rtext'>肠粉</view>
+
+      </view>
+      
     </view>
-    <view class='inright'>
-      <image class='rimg'></image>
-      <view class='rtext'>
-          <text>3</text>
+    <!--  -->
+    <view class='right_back'>
+      <view class='title'>午晚：</view>
+      <view class="inright">
+        <image class='rimg' src='../../菜单类/外卖/午晚/外卖寿司.jpg'></image>
+        <view class='rtext'>外卖寿司</view>
+     
       </view>
+      <view class="inright">
+        <image class='rimg' src='../../菜单类/外卖/午晚/外卖披萨.jpg'></image>
+        <view class='rtext'>外卖披萨</view>
+      </view>
+      <view class="inright">
+        <image class='rimg' src='../../菜单类/外卖/午晚/外卖水果捞.jpg'></image>
+        <view class='rtext'>外卖水果捞</view>
+     
+      </view>
+       <view class="inright">
+        <image class='rimg' src='../../菜单类/外卖/午晚/外卖汉堡.jpg'></image>
+        <view class='rtext'>外卖汉堡</view>
+     
+      </view>
+       <view class="inright">
+        <image class='rimg' src='../../菜单类/外卖/午晚/外卖炸鸡.jpg'></image>
+        <view class='rtext'>外卖炸鸡</view>
+     
+      </view>
+       <view class="inright">
+        <image class='rimg' src='../../菜单类/外卖/午晚/外卖烤串.jpg'></image>
+        <view class='rtext'>外卖烤串</view>
+     
+      </view>
+       <view class="inright">
+        <image class='rimg' src='../../菜单类/外卖/午晚/外卖牛肉饭.jpg'></image>
+        <view class='rtext'>外卖牛肉饭</view>
+     
+      </view>
+       <view class="inright">
+        <image class='rimg' src='../../菜单类/外卖/午晚/外卖驴肉火烧.jpg'></image>
+        <view class='rtext'>外卖驴肉火烧</view>
+     
+      </view>
+       <view class="inright">
+        <image class='rimg' src='../../菜单类/外卖/午晚/外卖麻辣烫.jpg'></image>
+        <view class='rtext'>外卖麻辣烫</view>
+     
+      </view>
+      
     </view>
   </view>
- </scoll-view>
+
+  <!-- 选左边第4个按钮出现这个页面 -->
+  <view class="right" wx:if="{{istrue4==1}}">
+    <view class='right_back'>
+      <view class='title'>减肥餐</view>
+      <view class="inright">
+        <image class='rimg' src='../../菜单类/南/减肥/南一凉拌黄瓜（减肥）.jpg'></image>
+        <view class='rtext'>凉拌黄瓜</view>
+        
+      </view>
+      <view class="inright">
+        <image class='rimg' src='../../菜单类/南/减肥/南一玉米饼（减肥）.jpg'></image>
+        <view class='rtext'>玉米饼</view>
+        
+      </view>
+      <view class='inright'>
+        <image class='rimg' src='../../菜单类/南/减肥/素炒圆白菜（减肥）.jpg'></image>
+        <view class='rtext'>圆白菜</view>
+        
+      </view>
+    </view>
+  
+    
+  </view>
+
+  <!-- 选左边第5个按钮出现这个页面 -->
+  <view class="right" wx:if="{{istrue5==1}}">
+    <view class='right_back'>
+      <view class='title'>减肥餐</view>
+      <view class="inright">
+        <image class='rimg' src='../../菜单类/北/减肥/北一番茄菜花（减肥）.jpg'></image>
+        <view class='rtext'>番茄菜花</view>
+        
+      </view>
+      <view class="inright">
+   <image class='rimg' src='../../菜单类/北/减肥/北一紫米粥（减肥）.jpg'></image>
+        <view class='rtext'>紫米粥</view>
+    
+      </view>
+      <view class='inright'>
+        <image class='rimg' src='../../菜单类/北/减肥/北一香菇炒油菜（减肥）.jpg'></image>
+        <view class='rtext'>香菇油菜</view>
+        
+      </view>
+    </view>
+  
+    
+  </view>
+
+  <!-- 选左边第6个按钮出现这个页面 -->
+ <view class="right" wx:if="{{istrue6==1}}">
+    <view class='right_back'>
+      <view class='title'>减肥餐</view>
+      <view class="inright">
+        <image class='rimg' src='../../菜单类/外卖/减肥/外卖健身餐（减肥）.jpg'></image>
+        <view class='rtext'>健身餐</view>
+ 
+      </view>
+      <view class="inright">
+         <image class='rimg' src='../../菜单类/外卖/减肥/外卖紫菜包饭（减肥）.jpg'></image>
+        <view class='rtext'>紫菜包饭</view>
+      
+      </view>
+      <view class='inright'>
+        <image class='rimg' src='../../菜单类/外卖/减肥/外卖蔬菜沙拉（减肥）.jpg'></image>
+         <view class='rtext'>蔬菜沙拉</view>
+        
+      </view>
+    </view>
+  
+    
+  </view>
 </view>

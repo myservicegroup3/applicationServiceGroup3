@@ -11,7 +11,7 @@
               <button class="onebutton {{one==1?'yes':'no'}}" bindtap='one'>全部</button>
               <button class="onebutton {{two==1?'yes':'no'}}" bindtap='two'>北食堂</button>
               <button class="onebutton {{three==1?'yes':'no'}}" bindtap='three'>南食堂</button>
-              <button class="onebutton {{four==1?'yes':'no'}}" bindtap='four'>这</button>
+              <button class="onebutton {{four==1?'yes':'no'}}" bindtap='four'>外卖</button>
               <button class="onebutton {{five==1?'yes':'no'}}" bindtap='five'>些</button>
               <button class="onebutton {{six==1?'yes':'no'}}" bindtap='six'>可</button>   
         </view>

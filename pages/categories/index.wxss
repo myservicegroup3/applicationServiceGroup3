@@ -6,7 +6,7 @@ width: 100%;
 .head{
   position: fixed;
   z-index: 4;
-  background: rgb(252, 238, 210);
+  background: rgb(204, 204, 253);
   width: 100%;
   height: 80rpx;
 }
@@ -79,9 +79,10 @@ width: 100%;
    width: 250rpx;
    height: 240rpx;
    margin: 10rpx;
+   border-radius:40rpx
 }
 .rtext{
-  background: orange;
+ 
    width: 220rpx;
    height: 240rpx;
    margin: 10rpx; 

@@ -9,7 +9,7 @@
 .bias{
   height: 70rpx;
   width:70rpx;
-  background: red;
+  background: rgb(229, 229, 253);
   margin-left: 88%;
   margin-top: 10rpx;
   border-radius: 30rpx;
@@ -18,7 +18,7 @@
   position: absolute;
   height: 70rpx;
   width:70rpx;
-  background: blue;
+  background: #9ad6fdc2;
   left: 88%;
   top: 10rpx;
   border-radius: 30rpx;
