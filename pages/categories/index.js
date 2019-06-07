@@ -15,7 +15,10 @@ Page({
       yes:true,
       isture1:1,
       istrue2:0,
-      istrue3: 0
+      istrue3: 0,
+      istrue4: 0,
+      istrue5: 0,
+      istrue6: 0,
     })
   },
   inleft2: function () {
@@ -23,7 +26,10 @@ Page({
       yes: false,
       isture1: 0,
       istrue2: 1,
-      istrue3: 0
+      istrue3: 0,
+      istrue4: 0,
+      istrue5: 0,
+      istrue6: 0,
     })
   },
   inleft3: function () {
@@ -31,7 +37,43 @@ Page({
       yes: false,
       isture1: 0,
       istrue2: 0,
-      istrue3: 1
+      istrue3: 1,
+      istrue4: 0,
+      istrue5: 0,
+      istrue6: 0,
+    })
+  },
+  inleft4: function () {
+    this.setData({
+      yes: false,
+      isture1: 0,
+      istrue2: 0,
+      istrue3: 0,
+      istrue4: 1,
+      istrue5: 0,
+      istrue6: 0,
+    })
+  },
+  inleft5: function () {
+    this.setData({
+      yes: false,
+      isture1: 0,
+      istrue2: 0,
+      istrue3: 0,
+      istrue4: 0,
+      istrue5: 1,
+      istrue6: 0,
+    })
+  },
+  inleft6: function () {
+    this.setData({
+      yes: false,
+      isture1: 0,
+      istrue2: 0,
+      istrue3: 0,
+      istrue4: 0,
+      istrue5: 0,
+      istrue6: 1,
     })
   },
   /**
