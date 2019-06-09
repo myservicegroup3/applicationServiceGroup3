@@ -18,15 +18,7 @@
   position: absolute;
   height: 70rpx;
   width:70rpx;
-<<<<<<< HEAD
   background: #9ad6fdc2;
-=======
-<<<<<<< HEAD
-  background: #9ad6fdc2;
-=======
-  background: #56abe4;
->>>>>>> 547e0becc3a520846eb78c7a0cacbae5d9d0836b
->>>>>>> 55e513eebb169990827c1b3dc44e3863651baa8d
   left: 88%;
   top: 10rpx;
   border-radius: 30rpx;

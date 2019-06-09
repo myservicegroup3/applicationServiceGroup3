@@ -3,36 +3,59 @@
    <view class='head'></view>
    <!-- 第一个菜品 -->
    <view class='items'>
-   <!-- 从某类里挑选 -->
-      <image class='img' src='{{north_img[suiji1]}}'  wx:if="{{menuwhich==1}}"></image>
-      <view class='text' wx:if="{{menuwhich==1}}">
-             <text>这是全部，你先选个标签</text>
+   <!-- all -->
+      <image class='img' src='{{all_img[zero]}}'  wx:if="{{menuwhich==0}}"></image>
+      <view class='text' wx:if="{{menuwhich==0}}">
+             <text>{{all[zero]}}</text>
       </view>  
-    <!-- 从另一类里挑选 -->
-      <image class='img' src='{{north_img[suiji1]}}'  wx:if="{{menuwhich==2}}"></image>
+    <!-- south1 -->
+      <image class='img' src='{{south1_img[four]}}'  wx:if="{{menuwhich==1}}"></image>
+      <view class='text' wx:if="{{menuwhich==1}}">
+             <text>{{south1[four]}}</text>
+      </view>   
+      <!-- south23 -->
+      <image class='img' src='{{south23_img[nine]}}'  wx:if="{{menuwhich==2}}"></image>
       <view class='text' wx:if="{{menuwhich==2}}">
-             <text>{{north[suiji1]}}</text>
+             <text>{{south23[nine]}}</text>
       </view>   
-      <!-- 从另一类里挑选 -->
-      <image class='img' src='{{south_img[suiji1]}}'  wx:if="{{menuwhich==3}}"></image>
+      <!-- north1 -->
+      <image class='img' src='{{north1_img[four]}}'  wx:if="{{menuwhich==4}}"></image>
+      <view class='text' wx:if="{{menuwhich==4}}">
+             <text>{{north1[four]}}</text>
+      </view>
+      <!-- north23 -->
+      <image class='img' src='{{north23_img[eight]}}'  wx:if="{{menuwhich==5}}"></image>
+      <view class='text' wx:if="{{menuwhich==5}}">
+             <text>{{north23[eight]}}</text>
+      </view>
+      <!-- out1 -->
+      <image class='img' src='{{out1_img[four]}}'  wx:if="{{menuwhich==7}}"></image>
+      <view class='text' wx:if="{{menuwhich==7}}">
+             <text>{{out1[four]}}</text>
+      </view>
+      <!-- out23 -->
+      <image class='img' src='{{out23_img[nine]}}'  wx:if="{{menuwhich==8}}"></image>
+      <view class='text' wx:if="{{menuwhich==8}}">
+             <text>{{out23[nine]}}</text>
+      </view>
+      <!-- southd -->
+      <image class='img' src='{{southd_img[three]}}'  wx:if="{{menuwhich==3}}"></image>
       <view class='text' wx:if="{{menuwhich==3}}">
-             <text>{{south[suiji1]}}</text>
-      </view>   
+             <text>{{southd[three]}}</text>
+      </view>
+      <!-- northd -->
+      <image class='img' src='{{northd_img[three]}}'  wx:if="{{menuwhich==6}}"></image>
+      <view class='text' wx:if="{{menuwhich==6}}">
+             <text>{{northd[three]}}</text>
+      </view>
+      <!-- outd -->
+      <image class='img' src='{{outd_img[three]}}'  wx:if="{{menuwhich==9}}"></image>
+      <view class='text' wx:if="{{menuwhich==9}}">
+             <text>{{outd[three]}}</text>
+      </view>
       <!-- 可以继续加类别（只要复制模板就好） -->
    </view>
-   <!-- 第二个菜品 -->
-   <view class='items'>
-    <!-- 从某类里挑选 -->
-      <image class='img' src='{{north_img[suiji1]}}'  wx:if="{{menuwhich==2}}"></image>
-      <view class='text' wx:if="{{menuwhich==2}}">
-             <text>{{north[suiji1]}}</text>
-      </view>  
-    <!-- 从另一类里挑选 -->
-      <image class='img' src='{{south_img[suiji1]}}'  wx:if="{{menuwhich==3}}"></image>
-      <view class='text' wx:if="{{menuwhich==3}}">
-             <text>{{south[suiji1]}}</text>
-      </view>   
-      <!-- 可以继续加类别（只要复制模板就好） -->    
-   </view>
+   <!--  -->
    <view class='foot'></view>
 </view>
+<button class='change' bindtap='change'>换一份</button>

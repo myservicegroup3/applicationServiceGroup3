@@ -28,7 +28,7 @@ Page({
     console.log(app.globalData);
     app.globalData.which = 1
     this.setData({
-      one:1,two:0,three:0,four:0,five:0,six:0,seven:0,eight:0
+      one:1,two:0,three:0,four:0,five:0,six:0,seven:0,eight:0,nine:0
     })
   },
   two: function () {
@@ -36,7 +36,7 @@ Page({
     console.log(app.globalData);
     app.globalData.which = 2
     this.setData({
-      one: 0, two: 1, three: 0, four: 0, five: 0, six: 0, seven: 0, eight: 0
+      one: 0, two: 1, three: 0, four: 0, five: 0, six: 0, seven: 0, eight: 0, nine: 0
     })
   },
   three: function () {
@@ -44,7 +44,7 @@ Page({
     console.log(app.globalData);
     app.globalData.which = 3
     this.setData({
-      one: 0, two: 0, three: 1, four: 0, five: 0, six: 0, seven: 0, eight: 0
+      one: 0, two: 0, three: 1, four: 0, five: 0, six: 0, seven: 0, eight: 0, nine: 0
     })
   },
   four: function () {
@@ -52,7 +52,7 @@ Page({
     console.log(app.globalData);
     app.globalData.which = 4
     this.setData({
-      one: 0, two: 0, three: 0, four: 1, five: 0, six: 0, seven: 0, eight: 0
+      one: 0, two: 0, three: 0, four: 1, five: 0, six: 0, seven: 0, eight: 0, nine: 0
     })
   },
   five: function () {
@@ -60,7 +60,7 @@ Page({
     console.log(app.globalData);
     app.globalData.which = 5
     this.setData({
-      one: 0, two: 0, three: 0, four: 0, five: 1, six: 0, seven: 0, eight: 0
+      one: 0, two: 0, three: 0, four: 0, five: 1, six: 0, seven: 0, eight: 0, nine: 0
     })
   },
   six: function () {
@@ -68,7 +68,7 @@ Page({
     console.log(app.globalData);
     app.globalData.which = 6
     this.setData({
-      one: 0, two: 0, three: 0, four: 0, five: 0, six: 1, seven: 0, eight: 0
+      one: 0, two: 0, three: 0, four: 0, five: 0, six: 1, seven: 0, eight: 0, nine: 0
     })
   },
   seven: function () {
@@ -76,7 +76,7 @@ Page({
     console.log(app.globalData);
     app.globalData.which = 7
     this.setData({
-      one: 0, two: 0, three: 0, four: 0, five: 0, six: 0, seven: 1, eight: 0
+      one: 0, two: 0, three: 0, four: 0, five: 0, six: 0, seven: 1, eight: 0, nine: 0
     })
   },
   eight: function () {
@@ -84,9 +84,26 @@ Page({
     console.log(app.globalData);
     app.globalData.which = 8
     this.setData({
-      one: 0, two: 0, three: 0, four: 0, five: 0, six: 0, seven: 0, eight: 1
+      one: 0, two: 0, three: 0, four: 0, five: 0, six: 0, seven: 0, eight: 1, nine: 0
     })
   },
+  nine: function () {
+    var app = getApp();
+    console.log(app.globalData);
+    app.globalData.which = 9
+    this.setData({
+      one: 0, two: 0, three: 0, four: 0, five: 0, six: 0, seven: 0, eight: 0, nine: 1
+    })
+  },
+  ten: function () {
+    var app = getApp();
+    console.log(app.globalData);
+    app.globalData.which = 8
+    this.setData({
+      one: 0, two: 0, three: 0, four: 0, five: 0, six: 0, seven: 0, eight: 1,nine: 1
+    })
+  },
+  //////////////////////
   biass2: function () {
     this.setData({
       istrue: 0,
@@ -109,6 +126,7 @@ Page({
     })
     this.onLoad();
   },
+  
   /**
    * 生命周期函数--监听页面加载
    */

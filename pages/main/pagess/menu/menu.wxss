@@ -4,7 +4,7 @@ page{
 }
 .container{
   margin-left:10%;
-  margin-top: 7%;
+  margin-top: 17%;
   width: 80%;
 
   background: #fff;
@@ -26,33 +26,40 @@ page{
    
     width: 450rpx;
     background: white;
-   
     margin-top: 3rpx;
-    margin-bottom: 10rpx;
     margin-left: 35rpx;
     display: flex;
-    padding: 20rpx;
-    padding-bottom: 50rpx;
+    padding: 40rpx;
 }
 .img{
-  width: 47%;
+  width: 54%;
   height: 280rpx;
   background: white;
   margin-right: 5%;
+  margin-top: 14rpx;
   border-radius:30rpx; 
 }
 .text{
-    width: 47%;
+    width: 30%;
   height: 185rpx;
   background: white;
-padding-left: 20rpx;
-padding-top: 100rpx;
+padding-left: 30rpx;
+padding-top: 120rpx;
 word-break: keep-all;
 word-wrap: break-word;
 }
 .head{
   height:30rpx;
     border-bottom: solid 2rpx black;
+}
+.change{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100rpx;
+  width: 40%;
+  height: 100rpx;
+  margin-left: 30%;
 }
 .foot{
   height: 100rpx;
