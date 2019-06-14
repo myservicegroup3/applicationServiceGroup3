@@ -197,7 +197,7 @@ ERD建模：
 * 刘常思冰 组员 负责展示ppt的制作，各类文档的编写，协助需求分析和任务开发  
 * 柏盛元 组员 负责在项目期间对进度进行记录，协助需求分析和任务开发    
 
-## 项目计划（6-1更新）：
+## 项目计划（6-14更新）：
 * 第11周： 与甲方沟通，获取项目的需求，制定计划和人员分工  
 	*分工情况说明：祁志洋 负责与甲方联系；*  
 	*刘俊杰 负责撰写博客和做第一次展示；*  
@@ -307,7 +307,7 @@ ERD建模：
 ![4](https://img-blog.csdnimg.cn/20190614134116377.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
 ![5](https://img-blog.csdnimg.cn/20190614134139628.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
 
-# “今天吃什么”需求规格文档
+# “今天吃什么”需求规格文档 （6-14更新）
 ### a. 引言
 a. 1目的
 a. 2预期的读者和阅读建议
