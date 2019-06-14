@@ -1,4 +1,4 @@
-# 软件工程需求技术博客
+﻿# 软件工程需求技术博客
 ## CSDN博客地址：https://blog.csdn.net/weixin_43480708
 * 5-7 第一次更新 *“今天吃什么”项目计划*
 * 5-16 第二次更新 *“今天吃什么” 项目前景和范围文档*
@@ -301,11 +301,11 @@ ERD建模：
 
 ### 5.24 - 6.1 图片更新
 
-![图1](/image2/3.png)
-![图1](/image2/5.png)
-![图1](/image2/4.png)
-![图1](/image2/1.png)
-![图1](/image2/2.png)
+![1](https://img-blog.csdnimg.cn/20190614133917934.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
+![2](https://img-blog.csdnimg.cn/2019061413404073.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
+![3](https://img-blog.csdnimg.cn/20190614134101658.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
+![4](https://img-blog.csdnimg.cn/20190614134116377.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
+![5](https://img-blog.csdnimg.cn/20190614134139628.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4MDcwOA==,size_16,color_FFFFFF,t_70)
 
 # “今天吃什么”需求规格文档
 ### a. 引言
