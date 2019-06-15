@@ -2,12 +2,12 @@
 import torch
 import torch.nn.functional as F
 
-n_data = torch.ones(100, 2)
+n_data = torch.ones(300, 2)
 x0 = torch.normal(2*n_data, 1)      
-y0 = torch.zeros(100)               
+y0 = torch.zeros(300)               
 x1 = torch.normal(-2*n_data, 1)    
-y1 = torch.ones(100)
-xx = torch.ones(100,1) 
+y1 = torch.ones(300)
+xx = torch.ones(300,1) 
 xxx = -1*xx
 x23 = torch.cat((xx,xxx),1).type(torch.Tensor) 
 x2 = torch.normal(2*x23, 1) 
